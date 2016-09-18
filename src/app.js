@@ -11,5 +11,4 @@ var sampleFunction = () => {
   var message = 'Sample function.';
   console.log(message);
 };
-
 sampleFunction();

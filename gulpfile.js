@@ -38,8 +38,8 @@ gulp.task('browserify', () => {
   watcher.obj.on('log', $.util.log);
 });
 
-gulp.task('watch', () => {
+gulp.task('watch', ['browserify'], () => {
   gulp.watch('./src/*.js', ['browserify']);
 });
 
-gulp.task('default', ['browserify', 'watch']);
+gulp.task('default', ['watch']);
