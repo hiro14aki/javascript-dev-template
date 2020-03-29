@@ -20,7 +20,7 @@
     "gulp-util": "3.0.8",
     "html-browserify": "0.0.6",
     "lodash.assign": "4.2.0",
-    "vinyl-source-stream": "1.1.2",
+    "vinyl-source-stream": "2.0.0",
     "watchify": "3.11.1"
   },
   "scripts": {
